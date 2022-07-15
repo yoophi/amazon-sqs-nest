@@ -16,7 +16,7 @@ AWS.config.update({
             consumers: [
                 {
                     name: config.TEST_QUEUE, // name of the queue 
-                    queueUrl: config.TEST_QUEUE, // the url of the queue
+                    queueUrl: config.TEST_QUEUE_URL, // the url of the queue
                     region: config.AWS_REGION,
                 },
             ],
